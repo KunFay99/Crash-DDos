@@ -33,10 +33,10 @@ print("""
 """)
 while attemps < 100:
 	print("\033[94m╔═════════════════════╗")
-    username = input("\033[33m║ Enter your username:  ║ ")
+    username = input("\033[33m Enter your username:   ")
     print("\033[94m╚═════════════════════╝")
     print("\033[96m╔═════════════════════╗")
-	password = input("\033[32m║ Enter your password:  ║ ")
+	password = input("\033[32m Enter your password:   ")
     print("\033[94m╚═════════════════════╝")
     if username == 'kun' and password == 'fayakun':
         print("\033[32m-------$ELAMAT DATANG DI ZONA MOSLEM CYBER ARMY------")
