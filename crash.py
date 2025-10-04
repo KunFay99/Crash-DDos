@@ -73,7 +73,7 @@ def run2():
 			print(i *" \033[35mCRASH \033[32mHTTP \033[33mFL00D  \033[96m" +str(ip)+ "\033[37m = \033[1mattack run\033[0m")
 		except:
 			s.close()
-			print(i +" \033[33mfinnaly run\033[0m")
+			print(i +" \033[1mfinnaly run\033[0m")
             
 
 def run3():
