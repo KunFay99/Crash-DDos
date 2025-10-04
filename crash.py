@@ -36,7 +36,7 @@ while attemps < 100:
     password = input("\033[32mEnter your password: \033[0m")
 
     if username == 'kun' and password == 'fayakun':
-        print("\033[33m$ELAMAT DATANG DI ZONA MOSLEM CYBER ARMY")
+        print("\033[33m-------$ELAMAT DATANG DI ZONA MOSLEM CYBER ARMY------")
         break
     else:
         print('Incorrect credentials. Check if you have Caps lock on and try again.')
