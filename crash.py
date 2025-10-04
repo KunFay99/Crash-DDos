@@ -41,10 +41,9 @@ print("""
 \033[32m                       \033[36m▓▓▓▓▓▓▓▓▓▓▓
 \033[32m                      \033[36m▓▓         ▓▓
 \033[32m
-\033[32m 
-\033[33m                 BRIGADE ATTACK SNIPER ELITE
-\033[94m              FREEDOM IS THE RIGHT OF ALL NATINS
-╚════════════════════════════════════════════════════════════╝║
+╔════════════════════════════════════════════════════════════╗                 
+ \033[94m              FREEDOM IS THE RIGHT OF ALL NATINS
+╚════════════════════════════════════════════════════════════╝
 """)
 while attemps < 100:
     username = input("\033[33mEnter your username: \033[0m")
