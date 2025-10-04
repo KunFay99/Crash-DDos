@@ -6,7 +6,6 @@ import threading
 import os
 import sys
 import time
-import fade
 os.system("clear")
 
 # Colors
@@ -34,15 +33,18 @@ logo = """
 ╔═════════════════════════════════════════════════════════════╗
 
        ▓▓▓▓▓▓
-   ▓▓▓▓▓▓▓   ▓▓   
- ▓▓    ▓▓      ▓▓
-▓▓     ▓▓     ▓▓ 
-▓▓     ▓▓▓▓▓▓
- ▓▓    ▓▓     ▓▓
-   ▓▓▓▓▓▓▓
-  
+   ▓▓▓▓▓▓▓   ▓▓           ▓▓▓▓▓▓▓
+ ▓▓    ▓▓      ▓▓        ▓▓
+▓▓     ▓▓     ▓▓   ▓▓    ▓▓
+▓▓     ▓▓▓▓▓▓    ▓▓ ▓▓   ▓▓▓▓▓▓▓   
+ ▓▓    ▓▓     ▓▓▓▓   ▓▓         ▓▓  ▓▓▓▓▓▓▓
+   ▓▓▓▓▓▓▓     ▓▓     ▓▓ ▓▓▓▓▓▓▓
+                ▓▓▓▓▓▓▓▓▓
+               ▓▓        ▓▓
+ 
+ 
  \033[33m                 BRIGADE ATTACKER SNIPER ELITE
- \033[94m              FREEDOM IS THE RIGHT OF ALL NATIONS
+ \033[94m              FREEDOM IS THE RIGHT OF ALL NATINS
 ╚════════════════════════════════════════════════════════════╝║
 """
 faded_text = fade.fire(logo)
