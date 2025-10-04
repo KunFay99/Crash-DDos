@@ -29,7 +29,7 @@ class bcolors:
 
 attemps = 0
 os.system("clear")
-logo = """
+print("""
 ╔═════════════════════════════════════════════════════════════╗
 \033[32m       ▓▓▓▓▓▓                       ▓▓      ▓▓
 \033[32m   ▓▓▓▓▓▓▓   ▓▓           ▓▓▓▓▓▓▓ ▓▓      ▓▓
@@ -45,7 +45,7 @@ logo = """
  \033[33m                 BRIGADE ATTACK SNIPER ELITE
  \033[94m              FREEDOM IS THE RIGHT OF ALL NATINS
 ╚════════════════════════════════════════════════════════════╝║
-"""
+""")
 while attemps < 100:
     username = input("\033[33mEnter your username: \033[0m")
     password = input("\033[32mEnter your password: \033[0m")
